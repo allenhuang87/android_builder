@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '17'
+          java-version: '8'
       - id: get-project
         name: Set output
         run: echo "::set-output name=PROJECT::$(cat project-to-build)"
