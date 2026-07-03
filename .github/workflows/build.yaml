@@ -12,6 +12,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
+          distribution: 'zulu'
           java-version: '17'
       - id: get-project
         name: Set output
